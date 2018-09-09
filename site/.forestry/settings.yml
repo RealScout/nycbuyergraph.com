@@ -7,7 +7,6 @@ sections:
 - type: document
   path: site/content/_index.html
   label: Home Page
-  match: "*"
 upload_dir: site//static/uploads
 public_path: "/uploads"
 front_matter_path: ''

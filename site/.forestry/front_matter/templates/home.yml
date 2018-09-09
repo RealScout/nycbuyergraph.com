@@ -1,0 +1,501 @@
+---
+label: Home
+hide_body: true
+is_partial: false
+fields:
+- type: textarea
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  default: |-
+    <pre><code>&lt;header class="header_bg text-center text-white"&gt;
+        &lt;div class="container"&gt;
+            &lt;h1 class="header_main_heading"&gt;Major Brokerages Launch NYC Buyer Graph to Transform Local Real Estate
+                Market&lt;/h1&gt;
+            &lt;button type="button" class="btn blue_btn header_btn" data-toggle="modal" data-target="#exampleModalCenter"&gt;Request Membership&lt;/button&gt;
+            &lt;p class="header_p"&gt;Are you a broker outside of New York? &lt;a href="#"&gt;Click Here&lt;/a&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/header&gt;
+    &lt;div class="container text-center"&gt;
+        &lt;h2 class="heading"&gt;What is the NYC Buyer Graph&lt;/h2&gt;
+        &lt;img src="img/universal_line.jpg" class="underline"&gt;
+        &lt;p class="p_text"&gt;Leading residential real estate brokerages in New York City have launched a groundbreaking
+            cooperative to make New York the most innovative, consumer-first residential real estate market in the
+            country.&lt;/p&gt;
+        &lt;p class="p_text"&gt;The platform, powered by RealScout, enables consumers and agents to search for the perfect
+            property using RealScout’s award winning property search, make data-driven decisions about their buying/selling
+            process with proprietary data, and collaborate with agents who have clients ready to transact. &lt;/p&gt;
+        &lt;button type="button" class="btn btn-outline-dark request_btn" data-toggle="modal" data-target="#exampleModalCenter"&gt;Request Membership&lt;/button&gt;
+        &lt;p class="click_here"&gt;Are you a broker outside of New York? &lt;a href="#"&gt;Click Here&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="gray_bg"&gt;
+        &lt;div class="container"&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="col-md-4 border-right border-bottom border_mobile_0"&gt;
+                    &lt;img src="img/3_bhs.png" class="img-fluid"&gt;
+                &lt;/div&gt;
+                &lt;div class="col-md-4 border-right border-bottom border_mobile_0"&gt;
+                    &lt;img src="img/3_douglas_elliman.png" class="img-fluid"&gt;
+                &lt;/div&gt;
+                &lt;div class="col-md-4 border-bottom border_mobile_0"&gt;
+                    &lt;img src="img/3_halstead.png" class="img-fluid"&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="col-md-4 border-right border-bottom border_mobile_0"&gt;
+                    &lt;img src="img/3_bond.png" class="img-fluid"&gt;
+                &lt;/div&gt;
+                &lt;div class="col-md-4 border-right border-bottom border_mobile_0"&gt;
+                    &lt;img src="img/3_warburg.png" class="img-fluid"&gt;
+                &lt;/div&gt;
+                &lt;div class="col-md-4 border-bottom border_mobile_0"&gt;
+                    &lt;img src="img/3_engel_volkers.png" class="img-fluid"&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="col-md-4 border-right border_mobile_0"&gt;
+                    &lt;img src="img/3_stribling.png" class="img-fluid"&gt;
+                &lt;/div&gt;
+                &lt;div class="col-md-4 border-right border_mobile_0"&gt;
+                    &lt;img src="img/3_coming_soon.png" class="img-fluid"&gt;
+                &lt;/div&gt;
+                &lt;div class="col-md-4"&gt;
+                    &lt;img src="img/3_coming_soon.png" class="img-fluid"&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="container text-center"&gt;
+        &lt;h2 class="heading"&gt;The Power of Your Buyer Data, Unleashed.&lt;/h2&gt;
+        &lt;img src="img/universal_line.jpg" class="underline"&gt;
+        &lt;p class="p_text"&gt;RealScout is the only technology platform that realizes the potential of your buyer data from
+            start to finish.&lt;/p&gt;
+        &lt;div class="row m_top"&gt;
+            &lt;div class="col-md-4"&gt;
+                &lt;img class="grid-icons" src="img/4_icon_A.jpg"&gt;
+                &lt;h3 class="grid-heading"&gt;Rapid Listing Alerts&lt;/h3&gt;
+                &lt;p class="p_small_text"&gt;
+                    Notify your clients of new listings faster, using our natural language emails branded for you. Alerts
+                    are customized for every buyer.
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="col-md-4"&gt;
+                &lt;img class="grid-icons" src="img/4_icon_B.jpg"&gt;
+                &lt;h3 class="grid-heading"&gt;Safe Search&lt;/h3&gt;
+                &lt;p class="p_small_text"&gt;
+                    RealScout’s full-browser search experience keeps clients inside a safe haven for collaboration - no ads
+                    for other agents.
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="col-md-4"&gt;
+                &lt;img class="grid-icons" src="img/4_icon_C.jpg"&gt;
+                &lt;h3 class="grid-heading"&gt;Property Comparison&lt;/h3&gt;
+                &lt;p class="p_small_text"&gt;
+                    Our industry-first property comparison feature automatically displays listings side-by-side,
+                    room-by-room using machine learning.
+                &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row m_top"&gt;
+            &lt;div class="col-md-4"&gt;
+                &lt;img class="grid-icons" src="img/4_icon_D.jpg"&gt;
+                &lt;h3 class="grid-heading"&gt;Protect Your Data&lt;/h3&gt;
+                &lt;p class="p_small_text"&gt;
+                    Stop valuable homebuyer demand data from leaking into portals and instead leverage it to win and sell
+                    more deals.
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="col-md-4"&gt;
+                &lt;img class="grid-icons" src="img/4_icon_E.jpg"&gt;
+                &lt;h3 class="grid-heading"&gt;For Web and Mobile&lt;/h3&gt;
+                &lt;p class="p_small_text"&gt;
+                    RealScout is designed to work beautifully on devices of all shapes and sizes. Plus, we have apps for iOS
+                    and Android.
+                &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="col-md-4"&gt;
+                &lt;img class="grid-icons" src="img/4_icon_F.jpg"&gt;
+                &lt;h3 class="grid-heading"&gt;Integration&lt;/h3&gt;
+                &lt;p class="p_small_text"&gt;
+                    RealScout integrates with all your favorite products, whether they are portals, websites or CRMs.
+                &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="blue_bg mt-70"&gt;
+        &lt;div class="container"&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="col-md-12"&gt;
+                    &lt;div id="testimonial-slider" class="owl-carousel"&gt;
+                        &lt;div class="testimonial"&gt;
+                            &lt;div class="Testimonials_bg text-white"&gt;
+                                &lt;div class="row"&gt;
+                                    &lt;div class="col-12 testimonial-text"&gt;
+                                        &lt;p&gt;“By offering the industry's premier collaborative search platform, BHS will
+                                            deliver an incredible benefit to our agents by keeping them completely in sync
+                                            with their homebuyers."&lt;/p&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="row align-items-center person-row"&gt;
+                                        &lt;div class="col-md-4"&gt;
+                                            &lt;img src="img/headshot_3.png" class="img-fluid headshot"&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class="col-md-8"&gt;
+                                            &lt;div class="t_name arial"&gt; Bess Freedman&lt;/div&gt;
+                                            &lt;div class="arial"&gt; Co-President&lt;/div&gt;
+                                            &lt;div class="arial"&gt; Brown Harris Stevens&lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="testimonial"&gt;
+                            &lt;div class="Testimonials_bg text-white"&gt;
+                                &lt;div class="row"&gt;
+                                    &lt;div class="col-12 testimonial-text"&gt;
+                                        &lt;p&gt;“By offering the industry's premier collaborative search platform, Brown Harris
+                                            Stevens will deliverer an incredible benefit to our agents by keeping them
+                                            completely in sync with their homebuyers."&lt;/p&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="row align-items-center person-row"&gt;
+                                        &lt;div class="col-md-4"&gt;
+                                            &lt;img src="img/headshot_2.png" class="img-fluid headshot"&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class="col-md-8"&gt;
+                                            &lt;div class="t_name arial"&gt; Clelia Peters&lt;/div&gt;
+                                            &lt;div class="arial"&gt; President&lt;/div&gt;
+                                            &lt;div class="arial"&gt; Warburg Realty&lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="testimonial"&gt;
+                            &lt;div class="Testimonials_bg text-white"&gt;
+                                &lt;div class="row "&gt;
+                                    &lt;div class="col-12 testimonial-text"&gt;
+                                        &lt;p&gt;Halstead has been working successfully with RealScout in Connecticut, and we are
+                                            confident that the technology will help bring efficiency and transparency to the
+                                            agent-affiliated home search process in New York City.&lt;/p&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="row align-items-center person-row"&gt;
+                                        &lt;div class="col-md-4"&gt;
+                                            &lt;img src="img/headshot_1.png" class="img-fluid headshot"&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class="col-md-8"&gt;
+                                            &lt;div class="t_name arial"&gt; Richard Grossman&lt;/div&gt;
+                                            &lt;div class="arial"&gt; President&lt;/div&gt;
+                                            &lt;div class="arial"&gt; Halstead&lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="testimonial"&gt;
+                            &lt;div class="Testimonials_bg text-white"&gt;
+                                &lt;div class="row"&gt;
+                                    &lt;div class="col-12 testimonial-text"&gt;
+                                        &lt;p&gt;“By offering the industry's premier collaborative search platform, BHS will
+                                            deliver an incredible benefit to our agents by keeping them completely in sync
+                                            with their homebuyers."&lt;/p&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="row align-items-center person-row"&gt;
+                                        &lt;div class="col-md-4"&gt;
+                                            &lt;img src="img/headshot_4.png" class="img-fluid headshot"&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class="col-md-8"&gt;
+                                            &lt;div class="t_name arial"&gt; Bess Freedman&lt;/div&gt;
+                                            &lt;div class="arial"&gt; Co-President&lt;/div&gt;
+                                            &lt;div class="arial"&gt; Brown Harris Stevens&lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="container-fluid"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-md-6 p-0 consumer-cover-img" style="background: url('img/6_A.jpg');background-size: cover;"&gt;
+            &lt;/div&gt;
+            &lt;div class="col-md-6 consumer-bg"&gt;
+                &lt;div class="padd"&gt;
+                    &lt;h2 class="s_heading"&gt;Capture Consumer Attention&lt;/h2&gt;
+                    &lt;p class="p_text mtb_40"&gt;Tens of thousands of real estate professionals trust RealScout to engage and
+                        convert their homebuyers.&lt;/p&gt;
+                    &lt;button type="button" class="btn blue_btn consumer_btn" data-toggle="modal" data-target="#exampleModalCenter"&gt;Request Membership&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-xs"&gt;
+            &lt;div class="col-md-6 consumer-bg"&gt;
+                &lt;div class="padd"&gt;
+                    &lt;h2 class="s_heading"&gt;Collect Buyer Data&lt;/h2&gt;
+                    &lt;p class="p_text mtb_40"&gt;Reveal insights about your clients’ search behavior and glean insights about
+                        homebuyer demand across Manhattan -- see which features are most desired, how many buyers are
+                        searching at various price points, and which brokers have the right buyer for your listing.&lt;/p&gt;
+                    &lt;button type="button" class="btn blue_btn consumer_btn" data-toggle="modal" data-target="#exampleModalCenter"&gt;Request Membership&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="col-md-6 p-0 consumer-cover-img" style="background: url('img/6_B.jpg');background-size: cover;"&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row d-block d-none d-md-none"&gt;
+            &lt;div class="col-md-6 p-0 consumer-cover-img" style="background: url('img/6_B.jpg');background-size: cover;"&gt;
+            &lt;/div&gt;
+            &lt;div class="col-md-6 consumer-bg"&gt;
+                &lt;div class="padd"&gt;
+                    &lt;h2 class="s_heading"&gt;Collect Buyer Data&lt;/h2&gt;
+                    &lt;p class="p_text mtb_40"&gt;Reveal insights about your clients’ search behavior and glean insights about
+                        homebuyer demand across Manhattan -- see which features are most desired, how many buyers are
+                        searching at various price points, and which brokers have the right buyer for your listing.&lt;/p&gt;
+                    &lt;button type="button" class="btn blue_btn consumer_btn" data-toggle="modal" data-target="#exampleModalCenter"&gt;Request Membership&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-md-6 p-0 consumer-cover-img" style="background: url('img/6_C.jpg');background-size: cover;"&gt;
+            &lt;/div&gt;
+            &lt;div class="col-md-6 consumer-bg"&gt;
+                &lt;div class="padd"&gt;
+                    &lt;h2 class="s_heading"&gt;Capitalize on More Profitable Deals&lt;/h2&gt;
+                    &lt;p class="p_text mtb_40"&gt;Leverage homebuyer demand data to increase the level of sophistication in your
+                        listing presentation and identify new opportunities to successfully and profitably sell new
+                        listings.&lt;/p&gt;
+                    &lt;button type="button" class="btn blue_btn consumer_btn" data-toggle="modal" data-target="#exampleModalCenter"&gt;Request Membership&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="blue_bg text-center text-white"&gt;
+        &lt;div class="container"&gt;
+            &lt;h2 class="RealScout_heading"&gt;The RealScout Difference&lt;/h2&gt;
+            &lt;img src="img/universal_line_white.png" class="white_bdr"&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="col-md-4"&gt;
+                    &lt;img class="cta-icon" src="img/7_A.png"&gt;
+                    &lt;h3 class="service_headning arial"&gt;Consumer Experience&lt;/h3&gt;
+                    &lt;p class="p_small_text"&gt;
+                        Great user experience and design define who we are. Our beautiful email alerts boast 17x higher CTR
+                        than industry averages because they look great on any device. Our search experience qualifies buyers
+                        faster, and agents adopt and love our software because we make it incredibly easy to use.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="col-md-4"&gt;
+                    &lt;img class="cta-icon" src="img/7_B.png"&gt;
+                    &lt;h3 class="service_headning arial"&gt;Technology&lt;/h3&gt;
+                    &lt;p class="p_small_text"&gt;
+                        We’re a Silicon Valley company with technology in our DNA. We pioneered innovations like computer
+                        vision and machine learning in real estate to deliver one-of-a-kind experiences to our users. Our
+                        API, lead ingestion, and single-sign-on solutions make implementation a breeze for brokerages.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="col-md-4"&gt;
+                    &lt;img class="cta-icon" src="img/7_C.png"&gt;
+                    &lt;h3 class="service_headning arial"&gt;People&lt;/h3&gt;
+                    &lt;p class="p_small_text"&gt;
+                        Our team brings together world-class talent in real estate, tech and business to solve real estate’s
+                        biggest problems. Because we value long-term, collaborative partnerships with our customers, we’ve
+                        invested in an on-shore team that provides high quality, human support.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="container text-center"&gt;
+        &lt;h2 class="heading"&gt;Buyer Graph Blog Posts&lt;/h2&gt;
+        &lt;img src="img/universal_line.jpg" class="underline"&gt;
+        &lt;p style="font-size: 15px; margin-bottom: 50px;color:#5e5e5e"&gt;The NYC Buyer Graph is rooted in a philosophy
+            RealScout has written
+            about often. Take a look at why this is a critical time for brokers to win the battle for buyer data.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-md-4"&gt;
+                &lt;div class="card blog-card"&gt;
+                    &lt;img src="img/8_A.jpg" class="img-fluid"&gt;
+                    &lt;div class="small_padd fix_hight"&gt;
+                        &lt;a class="read-more"
+                           href="https://www.linkedin.com/pulse/network-effects-only-way-future-proof-brokerages-andrew-flachner/"
+                           target="_blank"&gt;
+                        &lt;/a&gt;
+                        &lt;h3 class="blog_heading arial"&gt;Network Effects are Only Way to Future-proof Brokerages&lt;/h3&gt;
+                        &lt;p class="user"&gt;Andrew Flachner&lt;/p&gt;
+                        &lt;p class="blog-text"&gt;Originally published on Inman News -- Six months ago, I made the claim that
+                            2017 is the year of
+                            the broker, the year that brokerages must stand up to the threat of alt-brokerages and
+                            disintermediating tech companies.
+                            The chief way they can do this is through nurturing and protecting their most ...&lt;/p&gt;
+                        &lt;div class="row align-items-center blog-read-row"&gt;
+                            &lt;div class="col-12"&gt;
+                                &lt;p&gt;&lt;a class="read-more"
+                                      href="https://www.linkedin.com/pulse/network-effects-only-way-future-proof-brokerages-andrew-flachner/"&gt;Read
+                                    More&lt;/a&gt;&lt;/p&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="col-md-4"&gt;
+                &lt;div class="card blog-card"&gt;
+                    &lt;img src="img/8_B.jpg" class="img-fluid"&gt;
+                    &lt;div class="small_padd fix_hight"&gt;
+                        &lt;a class="read-more"
+                           href="https://www.linkedin.com/pulse/real-estate-buyer-data-gold-rush-andrew-flachner/"
+                           target="_blank"&gt;
+                            &lt;h3 class="blog_heading arial"&gt;The Real Estate Buyer Data Gold Rush&lt;/h3&gt;
+                        &lt;/a&gt;
+                        &lt;p class="user"&gt;Andrew Flachner&lt;/p&gt;
+                        &lt;p class="blog-text"&gt;There are moments in history where huge business opportunities are suddenly
+                            unlocked. Like the
+                            gold rush, these opportunities create fierce competition, rapid innovation, and new winners and
+                            losers.
+                            A new gold rush is emerging in residential real estate, but the resource in this case isn’t a...
+                            ...precious metal, it’s buyer data.&lt;/p&gt;
+                        &lt;div class="row align-items-center blog-read-row"&gt;
+                            &lt;div class="col-12"&gt;
+                                &lt;p&gt;&lt;a class="read-more"
+                                      href="https://www.linkedin.com/pulse/real-estate-buyer-data-gold-rush-andrew-flachner/"
+                                      target="_blank"&gt;Read More&lt;/a&gt;&lt;/p&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="col-md-4"&gt;
+                &lt;div class="card blog-card"&gt;
+                    &lt;img src="img/8_C.jpg" class="img-fluid"&gt;
+                    &lt;div class="small_padd fix_hight"&gt;
+                        &lt;a class="read-more"
+                           href="https://www.linkedin.com/pulse/why-brokers-losing-battle-buyer-data-andrew-flachner/"&gt;
+                            &lt;h3 class="blog_heading arial"&gt;Why Brokers are Losing the Battle for Buyer Data&lt;/h3&gt;
+                        &lt;/a&gt;
+                        &lt;p class="user"&gt;Andrew Flachner&lt;/p&gt;
+                        &lt;p class="blog-text"&gt;A common observation in both is that brokerages and traditional real estate
+                            professionals are
+                            behind the curve in this buyer data land grab.
+                            Losing this battle means that brokerages and agents could lose control over their transaction
+                            supply and demand, thus weakening their ... position in the ecosystem.
+                            So let’s explore the 3 reasons why brokerages are at a disadvantage today:&lt;/p&gt;
+                        &lt;div class="row align-items-center blog-read-row"&gt;
+                            &lt;div class="col-12"&gt;
+                                &lt;p&gt;&lt;a class="read-more"
+                                      href="https://www.linkedin.com/pulse/why-brokers-losing-battle-buyer-data-andrew-flachner/"&gt;Read
+                                    More&lt;/a&gt;&lt;/p&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="dark_black_bg"&gt;
+        &lt;div class="container"&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="col-md-8 text-white Dominate_text "&gt; Dominate supply by understanding demand.&lt;/div&gt;
+                &lt;div class="col-md-4"&gt;
+                    &lt;button type="button" class="btn bdr_btn" data-toggle="modal" data-target="#exampleModalCenter"&gt;Request Membership&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="light_black_bg"&gt;
+        &lt;div class="container"&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="col-lg-8 col-md-6 footer_logo text-white"&gt;&lt;img class="footer-icon" src="img/Footer_Logo.png"&gt;
+                    &lt;p class="footer-text"&gt;RealScout is a real estate technology company that provides a full-featured
+                        search platform for real
+                        estate agents to collaborate with their clients during the home‐buying process. &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="col-lg-4 col-md-6 text-white m-30"&gt;&lt;h4 class="footer-contact"&gt;CONTACT DETAILS&lt;/h4&gt;
+                    &lt;img src="img/footer_underline.png"&gt;
+                    &lt;div class="row mt-3"&gt;
+                        &lt;div class="col-2"&gt;&lt;img class="footer-icon" src="img/msg.png"&gt;&lt;/div&gt;
+                        &lt;div class="col-10"&gt;&lt;p class="footer-text"&gt;sales@realscout.com&lt;/p&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="row"&gt;
+                        &lt;div class="col-2"&gt;&lt;img class="footer-icon" src="img/map.png"&gt;&lt;/div&gt;
+                        &lt;div class="col-10"&gt;&lt;p class="footer-text"&gt;
+                            211 Hope St. #390517 &lt;br&gt;
+                            Mountain View CA 94041
+                        &lt;/p&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;!-- Modal --&gt;
+    &lt;div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+         aria-hidden="true"&gt;
+        &lt;div class="modal-dialog modal-dialog-centered" role="document"&gt;
+            &lt;div class="modal-content"&gt;
+                &lt;div class="modal-header"&gt;
+                    &lt;h5 class="modal-title popup-head" id="exampleModalLongTitle"&gt;Request Membership&lt;/h5&gt;
+                    &lt;button type="button" class="close" data-dismiss="modal" aria-label="Close"&gt;
+                        &lt;span aria-hidden="true"&gt;&amp;times;&lt;/span&gt;
+                    &lt;/button&gt;
+                &lt;/div&gt;
+                &lt;div class="modal-body text-center popup-body"&gt;
+                    &lt;img src="img/universal_line.jpg" class="underline ml-auto mr-auto"&gt;
+                    &lt;div class="container"&gt;
+                        &lt;form id="pop-form1"&gt;
+                            &lt;div class="form-group row justify-content-center"&gt;
+                                &lt;div class="col-sm-10"&gt;
+                                    &lt;input type="text" class="form-control form-control-sm" id="name" placeholder="Name"&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="form-group row justify-content-center"&gt;
+                                &lt;div class="col-sm-10"&gt;
+                                    &lt;input type="email" class="form-control form-control-sm" id="email" placeholder="Email"&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="form-group row justify-content-center"&gt;
+                                &lt;div class="col-sm-10"&gt;
+                                    &lt;input type="tel" class="form-control form-control-sm" id="phone" placeholder="Phone"&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="form-group row justify-content-center"&gt;
+                                &lt;div class="col-sm-10"&gt;
+                                    &lt;input type="text" class="form-control form-control-sm" id="brokerage"
+                                           placeholder="Brokerage Name"&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+
+                        &lt;/form&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="modal-footer popup-footer"&gt;
+                    &lt;button type="button" class="btn blue_btn consumer_btn ml-auto mr-auto popup-button"&gt;Submit&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"&gt;&lt;/script&gt;
+    &lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"&gt;&lt;/script&gt;
+    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"&gt;&lt;/script&gt;
+
+    &lt;script type="text/javascript"&gt;
+        $(document).ready(function () {
+            $("#testimonial-slider").owlCarousel({
+                items: 3,
+                itemsDesktop: [1000, 2],
+                itemsDesktopSmall: [990, 1],
+                itemsTablet: [768, 1],
+                pagination: true,
+                navigation: false,
+                navigationText: ["", ""],
+                slideSpeed: 1000,
+                autoPlay: true
+            });
+        });
+    &lt;/script&gt;</code></pre>
+  label: File
+  name: file
