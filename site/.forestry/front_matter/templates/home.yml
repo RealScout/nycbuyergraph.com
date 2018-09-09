@@ -499,3 +499,5 @@ fields:
     &lt;/script&gt;</code></pre>
   label: File
   name: file
+pages:
+- site/content/_index.html
