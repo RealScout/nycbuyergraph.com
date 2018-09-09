@@ -1,0 +1,511 @@
+a {
+    color: #209dfd
+}
+
+.btn {
+    border-radius: 100px
+}
+
+@font-face {
+    font-family: prospectusstdbld;
+    src: url(font/ProspectusStdBld.html) format('opentype')
+}
+
+body {
+    font-family: ProspectusStdBld
+}
+
+.btn {
+    font-family: Arial
+}
+
+p, h4, .arial {
+    font-family: Arial
+}
+
+.header_bg {
+    background: url(img/1_hero.jpg);
+    padding: 10em 0;
+    background-size: 100%
+}
+
+.blue_btn {
+    background: #094f86;
+    color: #fff
+}
+
+.header_btn {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 45px;
+    margin: 20px 0
+}
+
+.header_p {
+    font-size: 12px
+}
+
+.header_main_heading {
+    font-size: 56px;
+    margin-bottom: 20px
+}
+
+.click_here {
+    font-size: 12px
+}
+
+.heading {
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 120px
+}
+
+.underline {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 40px;
+    height: 4px;
+}
+
+.p_text {
+    font-size: 17px
+}
+
+.request_btn {
+    border: solid 2px;
+    font-size: 15px;
+    padding: 18px 40px;
+    margin: 30px 0;
+    font-weight: 500
+}
+
+.gray_bg {
+    background: #f5f5f5;
+    margin-top: 6em;
+    padding: 38px
+}
+
+.service_headning {
+    font-size: 20px
+}
+
+.p_small_text {
+    font-size: 16px
+}
+
+.m_top {
+    margin-top: 30px
+}
+
+.blue_bg {
+    background: url(img/7_bg.jpg);
+    padding: 100px 0;
+    background-size: cover
+}
+
+.mt-70 {
+    margin-top: 70px
+}
+
+.s_heading {
+    font-size: 48px;
+    font-weight: 700;
+    color: #525252;
+}
+
+.padd {
+    padding: 65px
+}
+
+.consumer_btn {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 20px;
+    margin: 20px 0
+}
+
+.mtb_40 {
+    margin: 40px 0
+}
+
+.service_headning {
+    margin: 20px 0;
+    font-weight: 700
+}
+
+.RealScout_heading {
+    margin-top: 30px;
+    font-size:36px;
+}
+
+.white_bdr {
+    margin: 30px 0 40px;
+    width: 40px;
+    height: 4px;
+}
+
+.card {
+    box-shadow: 0 10px 130px -59px;
+    margin-bottom: 50px
+}
+
+.small_padd {
+    padding: 20px 28px 0 28px
+}
+
+.blog_heading {
+    font-weight: 700;
+    font-size: 20px
+}
+
+.dark_black_bg {
+    background: #1c1f20;
+    padding: 50px 0
+}
+
+.bdr_btn {
+    background: 0 0;
+    border: solid 2px;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 30px;
+    margin-top: 10px
+}
+
+.bdr_btn:hover {
+    background: #fff;
+    border: solid 2px;
+    color: #1c1f20
+}
+
+.Dominate_text {
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.light_black_bg {
+    background: #2a2e31
+}
+
+.footer_logo img {
+    width: 180px;
+    margin: 30px 0
+}
+
+.m-30 {
+    margin: 30px 0
+}
+
+.Testimonials_bg {
+    background: rgba(255, 255, 255, .1);
+    padding: 30px;
+}
+
+.t_name {
+    font-size: 20px
+}
+
+.grid-icons{
+    width: 60px;
+}
+.consumer-cover-img{
+    background-size: cover;
+    min-height: 300px;
+}
+.cta-icon {
+    width: 40px;
+
+}
+.grid-heading{
+    margin: 12px 0;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.footer-contact{
+    font-size: 18px;
+}
+
+.footer-text{
+    font-size: 12px;
+}
+.footer-icon{
+    width: 30px;
+}
+.testimonial-text{
+    height: 250px
+}
+.person-row{
+    height: 100px;
+}
+.consumer-bg{
+    background: #f0f0f0;
+}
+.user{
+    font-size: 14px;
+}
+.blog-text{
+    font-size: 14px;
+}
+.blog-card{
+    min-height: 600px
+}
+.read-more{
+    color: #003373;
+    font-size: 14px;
+}
+.blog-read-row{
+    height: 20px;
+    bottom:0;
+    position: absolute;
+    margin-bottom: 50px;
+}
+
+.popup-head{
+    text-align: center;
+    margin-left: 123px;
+}
+
+.popup-body{
+    margin-top: -45px;
+}
+
+.popup-button{
+    width: 270px;
+    font-size: 17px;
+    height: 60px;
+
+
+}
+
+.popup-footer{
+    margin-top: -40px;
+}
+
+#pop-form1 input{
+    background: #efefef;
+    color: #999999;
+    padding: 10px 5px 10px 10px;
+    border-radius: 0;
+    margin-bottom: -10px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    border: none;
+    height: 56px;
+}
+
+.modal-header{
+    border: none;
+    font-family: ProspectusStdBld, sans-serif;
+    font-size: 37px;
+}
+.modal-footer{
+    border: none;
+}
+
+@media (min-width: 1281px) {
+    .fix_hight {
+        min-height: 412px !important;
+        position: relative;
+    }
+
+    .Testimonials_bg {
+        min-height: 310px
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    .consumer_btn {
+        font-size: 15px;
+        font-weight: 400;
+        padding: 10px 20px;
+        margin: 0
+    }
+    .blog-card{
+        min-height: 900px
+    }
+
+    .s_heading {
+        font-size: 30px;
+        font-weight: 700
+    }
+
+    .mtb_40 {
+        margin: 10px 0
+    }
+
+    .padd {
+        padding: 3px
+    }
+
+    .p_text {
+        font-size: 15px
+    }
+
+    .bdr_btn {
+        font-size: 15px;
+        padding: 15px 31px
+    }
+
+    .Dominate_text {
+        font-size: 22px;
+        margin-top: 10px
+    }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .padd {
+        padding: 15px
+    }
+    .blog-card{
+        min-height: 700px
+    }
+
+
+    .hidden-xs {
+        display: none
+    }
+
+    .headshot{
+        width: 100px;
+    }
+    .Testimonials_bg{
+        height: 500px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .header_btn {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 15px 42px;
+        margin: 20px 0
+    }
+
+    .header_main_heading {
+        font-size: 38px;
+        margin-bottom: 0
+    }
+
+    .header_bg {
+        background-size: cover;
+        padding: 5em 0
+    }
+
+    .p_text {
+        font-size: 18px
+    }
+
+    .heading {
+        font-size: 40px
+    }
+
+    .border_mobile_0 {
+        border: 0 !important
+    }
+
+    .s_heading {
+        font-size: 37px;
+        font-weight: 700
+    }
+
+    .bdr_btn {
+        margin-top: 30px
+    }
+
+    .request_btn {
+        border: solid 3px;
+        font-size: 18px;
+        padding: 14px 40px;
+        margin: 30px 0;
+        font-weight: 500
+    }
+
+    .gray_bg {
+        margin-top: 4em
+    }
+
+
+}
+
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls .owl-page:hover span {
+    background: #fff !important
+}
+
+.owl-theme .owl-controls .owl-page span {
+    border: 2px solid #fff !important
+}
+
+.testimonial {
+    padding: 0;
+    margin: 0 15px 30px;
+    overflow: hidden;
+    position: relative
+}
+
+.testimonial .pic {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 60px;
+    left: 20px
+}
+
+.testimonial .pic img {
+    width: 100%;
+    height: auto
+}
+
+.testimonial .description {
+    font-size: 15px;
+    font-style: italic;
+    color: #918686;
+    line-height: 25px;
+    margin-bottom: 15px
+}
+
+.testimonial .title {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #d45113;
+    margin: 0
+}
+
+.testimonial .post {
+    display: inline-block;
+    font-size: 17px;
+    color: #d45113
+}
+
+.owl-theme .owl-controls .owl-page span {
+    border: 2px solid #d45113;
+    background: #fff;
+    opacity: 1
+}
+
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls .owl-page:hover span {
+    background: #d45113
+}
+
+@media only screen and (max-width: 767px) {
+    .testimonial {
+        padding: 20px;
+        text-align: center
+    }
+
+    .testimonial .pic {
+        display: block;
+        position: static;
+        margin: 0 auto 15px
+    }
+}

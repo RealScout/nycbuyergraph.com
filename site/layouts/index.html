@@ -1,9 +1,492 @@
 {{ define "main" }}
+{{ .Content }}
+<header class="header_bg text-center text-white">
+  <div class="container">
+    <h1 class="header_main_heading">Major Brokerages Launch NYC Buyer Graph to Transform Local Real Estate
+      Market</h1>
+    <button type="button" class="btn blue_btn header_btn" data-toggle="modal" data-target="#exampleModalCenter">Request Membership</button>
+    <p class="header_p">Are you a broker outside of New York? <a href="#">Click Here</a></p>
+  </div>
+</header>
+<div class="container text-center">
+  <h2 class="heading">What is the NYC Buyer Graph</h2>
+  <img src="img/universal_line.jpg" class="underline">
+  <p class="p_text">Leading residential real estate brokerages in New York City have launched a groundbreaking
+    cooperative to make New York the most innovative, consumer-first residential real estate market in the
+    country.</p>
+  <p class="p_text">The platform, powered by RealScout, enables consumers and agents to search for the perfect
+    property using RealScout’s award winning property search, make data-driven decisions about their buying/selling
+    process with proprietary data, and collaborate with agents who have clients ready to transact. </p>
+  <button type="button" class="btn btn-outline-dark request_btn" data-toggle="modal" data-target="#exampleModalCenter">Request Membership</button>
+  <p class="click_here">Are you a broker outside of New York? <a href="#">Click Here</a></p>
+</div>
+<div class="gray_bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 border-right border-bottom border_mobile_0">
+        <img src="img/3_bhs.png" class="img-fluid">
+      </div>
+      <div class="col-md-4 border-right border-bottom border_mobile_0">
+        <img src="img/3_douglas_elliman.png" class="img-fluid">
+      </div>
+      <div class="col-md-4 border-bottom border_mobile_0">
+        <img src="img/3_halstead.png" class="img-fluid">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 border-right border-bottom border_mobile_0">
+        <img src="img/3_bond.png" class="img-fluid">
+      </div>
+      <div class="col-md-4 border-right border-bottom border_mobile_0">
+        <img src="img/3_warburg.png" class="img-fluid">
+      </div>
+      <div class="col-md-4 border-bottom border_mobile_0">
+        <img src="img/3_engel_volkers.png" class="img-fluid">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 border-right border_mobile_0">
+        <img src="img/3_stribling.png" class="img-fluid">
+      </div>
+      <div class="col-md-4 border-right border_mobile_0">
+        <img src="img/3_coming_soon.png" class="img-fluid">
+      </div>
+      <div class="col-md-4">
+        <img src="img/3_coming_soon.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container text-center">
+  <h2 class="heading">The Power of Your Buyer Data, Unleashed.</h2>
+  <img src="img/universal_line.jpg" class="underline">
+  <p class="p_text">RealScout is the only technology platform that realizes the potential of your buyer data from
+    start to finish.</p>
+  <div class="row m_top">
+    <div class="col-md-4">
+      <img class="grid-icons" src="img/4_icon_A.jpg">
+      <h3 class="grid-heading">Rapid Listing Alerts</h3>
+      <p class="p_small_text">
+        Notify your clients of new listings faster, using our natural language emails branded for you. Alerts
+        are customized for every buyer.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img class="grid-icons" src="img/4_icon_B.jpg">
+      <h3 class="grid-heading">Safe Search</h3>
+      <p class="p_small_text">
+        RealScout’s full-browser search experience keeps clients inside a safe haven for collaboration - no ads
+        for other agents.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img class="grid-icons" src="img/4_icon_C.jpg">
+      <h3 class="grid-heading">Property Comparison</h3>
+      <p class="p_small_text">
+        Our industry-first property comparison feature automatically displays listings side-by-side,
+        room-by-room using machine learning.
+      </p>
+    </div>
+  </div>
+  <div class="row m_top">
+    <div class="col-md-4">
+      <img class="grid-icons" src="img/4_icon_D.jpg">
+      <h3 class="grid-heading">Protect Your Data</h3>
+      <p class="p_small_text">
+        Stop valuable homebuyer demand data from leaking into portals and instead leverage it to win and sell
+        more deals.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img class="grid-icons" src="img/4_icon_E.jpg">
+      <h3 class="grid-heading">For Web and Mobile</h3>
+      <p class="p_small_text">
+        RealScout is designed to work beautifully on devices of all shapes and sizes. Plus, we have apps for iOS
+        and Android.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img class="grid-icons" src="img/4_icon_F.jpg">
+      <h3 class="grid-heading">Integration</h3>
+      <p class="p_small_text">
+        RealScout integrates with all your favorite products, whether they are portals, websites or CRMs.
+      </p>
+    </div>
+  </div>
+</div>
 
-<h1>Hugo with Gulp, PostCSS and Webpack</h1>
+<div class="blue_bg mt-70">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="testimonial-slider" class="owl-carousel">
+          <div class="testimonial">
+            <div class="Testimonials_bg text-white">
+              <div class="row">
+                <div class="col-12 testimonial-text">
+                  <p>“By offering the industry's premier collaborative search platform, BHS will
+                    deliver an incredible benefit to our agents by keeping them completely in sync
+                    with their homebuyers."</p>
+                </div>
+                <div class="row align-items-center person-row">
+                  <div class="col-md-4">
+                    <img src="img/headshot_3.png" class="img-fluid headshot">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="t_name arial"> Bess Freedman</div>
+                    <div class="arial"> Co-President</div>
+                    <div class="arial"> Brown Harris Stevens</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="Testimonials_bg text-white">
+              <div class="row">
+                <div class="col-12 testimonial-text">
+                  <p>“By offering the industry's premier collaborative search platform, Brown Harris
+                    Stevens will deliverer an incredible benefit to our agents by keeping them
+                    completely in sync with their homebuyers."</p>
+                </div>
+                <div class="row align-items-center person-row">
+                  <div class="col-md-4">
+                    <img src="img/headshot_2.png" class="img-fluid headshot">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="t_name arial"> Clelia Peters</div>
+                    <div class="arial"> President</div>
+                    <div class="arial"> Warburg Realty</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="Testimonials_bg text-white">
+              <div class="row ">
+                <div class="col-12 testimonial-text">
+                  <p>Halstead has been working successfully with RealScout in Connecticut, and we are
+                    confident that the technology will help bring efficiency and transparency to the
+                    agent-affiliated home search process in New York City.</p>
+                </div>
+                <div class="row align-items-center person-row">
+                  <div class="col-md-4">
+                    <img src="img/headshot_1.png" class="img-fluid headshot">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="t_name arial"> Richard Grossman</div>
+                    <div class="arial"> President</div>
+                    <div class="arial"> Halstead</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="Testimonials_bg text-white">
+              <div class="row">
+                <div class="col-12 testimonial-text">
+                  <p>“By offering the industry's premier collaborative search platform, BHS will
+                    deliver an incredible benefit to our agents by keeping them completely in sync
+                    with their homebuyers."</p>
+                </div>
+                <div class="row align-items-center person-row">
+                  <div class="col-md-4">
+                    <img src="img/headshot_4.png" class="img-fluid headshot">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="t_name arial"> Bess Freedman</div>
+                    <div class="arial"> Co-President</div>
+                    <div class="arial"> Brown Harris Stevens</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 p-0 consumer-cover-img" style="background: url('img/6_A.jpg');background-size: cover;">
+    </div>
+    <div class="col-md-6 consumer-bg">
+      <div class="padd">
+        <h2 class="s_heading">Capture Consumer Attention</h2>
+        <p class="p_text mtb_40">Tens of thousands of real estate professionals trust RealScout to engage and
+          convert their homebuyers.</p>
+        <button type="button" class="btn blue_btn consumer_btn" data-toggle="modal" data-target="#exampleModalCenter">Request Membership</button>
+      </div>
+    </div>
+  </div>
+  <div class="row hidden-xs">
+    <div class="col-md-6 consumer-bg">
+      <div class="padd">
+        <h2 class="s_heading">Collect Buyer Data</h2>
+        <p class="p_text mtb_40">Reveal insights about your clients’ search behavior and glean insights about
+          homebuyer demand across Manhattan -- see which features are most desired, how many buyers are
+          searching at various price points, and which brokers have the right buyer for your listing.</p>
+        <button type="button" class="btn blue_btn consumer_btn" data-toggle="modal" data-target="#exampleModalCenter">Request Membership</button>
+      </div>
+    </div>
+    <div class="col-md-6 p-0 consumer-cover-img" style="background: url('img/6_B.jpg');background-size: cover;">
+    </div>
+  </div>
+  <div class="row d-block d-none d-md-none">
+    <div class="col-md-6 p-0 consumer-cover-img" style="background: url('img/6_B.jpg');background-size: cover;">
+    </div>
+    <div class="col-md-6 consumer-bg">
+      <div class="padd">
+        <h2 class="s_heading">Collect Buyer Data</h2>
+        <p class="p_text mtb_40">Reveal insights about your clients’ search behavior and glean insights about
+          homebuyer demand across Manhattan -- see which features are most desired, how many buyers are
+          searching at various price points, and which brokers have the right buyer for your listing.</p>
+        <button type="button" class="btn blue_btn consumer_btn" data-toggle="modal" data-target="#exampleModalCenter">Request Membership</button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 p-0 consumer-cover-img" style="background: url('img/6_C.jpg');background-size: cover;">
+    </div>
+    <div class="col-md-6 consumer-bg">
+      <div class="padd">
+        <h2 class="s_heading">Capitalize on More Profitable Deals</h2>
+        <p class="p_text mtb_40">Leverage homebuyer demand data to increase the level of sophistication in your
+          listing presentation and identify new opportunities to successfully and profitably sell new
+          listings.</p>
+        <button type="button" class="btn blue_btn consumer_btn" data-toggle="modal" data-target="#exampleModalCenter">Request Membership</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="blue_bg text-center text-white">
+  <div class="container">
+    <h2 class="RealScout_heading">The RealScout Difference</h2>
+    <img src="img/universal_line_white.png" class="white_bdr">
+    <div class="row">
+      <div class="col-md-4">
+        <img class="cta-icon" src="img/7_A.png">
+        <h3 class="service_headning arial">Consumer Experience</h3>
+        <p class="p_small_text">
+          Great user experience and design define who we are. Our beautiful email alerts boast 17x higher CTR
+          than industry averages because they look great on any device. Our search experience qualifies buyers
+          faster, and agents adopt and love our software because we make it incredibly easy to use.
+        </p>
+      </div>
+      <div class="col-md-4">
+        <img class="cta-icon" src="img/7_B.png">
+        <h3 class="service_headning arial">Technology</h3>
+        <p class="p_small_text">
+          We’re a Silicon Valley company with technology in our DNA. We pioneered innovations like computer
+          vision and machine learning in real estate to deliver one-of-a-kind experiences to our users. Our
+          API, lead ingestion, and single-sign-on solutions make implementation a breeze for brokerages.
+        </p>
+      </div>
+      <div class="col-md-4">
+        <img class="cta-icon" src="img/7_C.png">
+        <h3 class="service_headning arial">People</h3>
+        <p class="p_small_text">
+          Our team brings together world-class talent in real estate, tech and business to solve real estate’s
+          biggest problems. Because we value long-term, collaborative partnerships with our customers, we’ve
+          invested in an on-shore team that provides high quality, human support.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container text-center">
+  <h2 class="heading">Buyer Graph Blog Posts</h2>
+  <img src="img/universal_line.jpg" class="underline">
+  <p style="font-size: 15px; margin-bottom: 50px;color:#5e5e5e">The NYC Buyer Graph is rooted in a philosophy
+    RealScout has written
+    about often. Take a look at why this is a critical time for brokers to win the battle for buyer data.</p>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card blog-card">
+        <img src="img/8_A.jpg" class="img-fluid">
+        <div class="small_padd fix_hight">
+          <a class="read-more"
+             href="https://www.linkedin.com/pulse/network-effects-only-way-future-proof-brokerages-andrew-flachner/"
+             target="_blank">
+          </a>
+          <h3 class="blog_heading arial">Network Effects are Only Way to Future-proof Brokerages</h3>
+          <p class="user">Andrew Flachner</p>
+          <p class="blog-text">Originally published on Inman News -- Six months ago, I made the claim that
+            2017 is the year of
+            the broker, the year that brokerages must stand up to the threat of alt-brokerages and
+            disintermediating tech companies.
+            The chief way they can do this is through nurturing and protecting their most ...</p>
+          <div class="row align-items-center blog-read-row">
+            <div class="col-12">
+              <p><a class="read-more"
+                    href="https://www.linkedin.com/pulse/network-effects-only-way-future-proof-brokerages-andrew-flachner/">Read
+                More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card blog-card">
+        <img src="img/8_B.jpg" class="img-fluid">
+        <div class="small_padd fix_hight">
+          <a class="read-more"
+             href="https://www.linkedin.com/pulse/real-estate-buyer-data-gold-rush-andrew-flachner/"
+             target="_blank">
+            <h3 class="blog_heading arial">The Real Estate Buyer Data Gold Rush</h3>
+          </a>
+          <p class="user">Andrew Flachner</p>
+          <p class="blog-text">There are moments in history where huge business opportunities are suddenly
+            unlocked. Like the
+            gold rush, these opportunities create fierce competition, rapid innovation, and new winners and
+            losers.
+            A new gold rush is emerging in residential real estate, but the resource in this case isn’t a...
+            ...precious metal, it’s buyer data.</p>
+          <div class="row align-items-center blog-read-row">
+            <div class="col-12">
+              <p><a class="read-more"
+                    href="https://www.linkedin.com/pulse/real-estate-buyer-data-gold-rush-andrew-flachner/"
+                    target="_blank">Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card blog-card">
+        <img src="img/8_C.jpg" class="img-fluid">
+        <div class="small_padd fix_hight">
+          <a class="read-more"
+             href="https://www.linkedin.com/pulse/why-brokers-losing-battle-buyer-data-andrew-flachner/">
+            <h3 class="blog_heading arial">Why Brokers are Losing the Battle for Buyer Data</h3>
+          </a>
+          <p class="user">Andrew Flachner</p>
+          <p class="blog-text">A common observation in both is that brokerages and traditional real estate
+            professionals are
+            behind the curve in this buyer data land grab.
+            Losing this battle means that brokerages and agents could lose control over their transaction
+            supply and demand, thus weakening their ... position in the ecosystem.
+            So let’s explore the 3 reasons why brokerages are at a disadvantage today:</p>
+          <div class="row align-items-center blog-read-row">
+            <div class="col-12">
+              <p><a class="read-more"
+                    href="https://www.linkedin.com/pulse/why-brokers-losing-battle-buyer-data-andrew-flachner/">Read
+                More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="dark_black_bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 text-white Dominate_text "> Dominate supply by understanding demand.</div>
+      <div class="col-md-4">
+        <button type="button" class="btn bdr_btn" data-toggle="modal" data-target="#exampleModalCenter">Request Membership</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="light_black_bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-6 footer_logo text-white"><img class="footer-icon" src="img/Footer_Logo.png">
+        <p class="footer-text">RealScout is a real estate technology company that provides a full-featured
+          search platform for real
+          estate agents to collaborate with their clients during the home‐buying process. </p>
+      </div>
+      <div class="col-lg-4 col-md-6 text-white m-30"><h4 class="footer-contact">CONTACT DETAILS</h4>
+        <img src="img/footer_underline.png">
+        <div class="row mt-3">
+          <div class="col-2"><img class="footer-icon" src="img/msg.png"></div>
+          <div class="col-10"><p class="footer-text">sales@realscout.com</p></div>
+        </div>
+        <div class="row">
+          <div class="col-2"><img class="footer-icon" src="img/map.png"></div>
+          <div class="col-10"><p class="footer-text">
+            211 Hope St. #390517 <br>
+            Mountain View CA 94041
+          </p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-<p>
-  Hooray 🎉 - you've built this with <a href="https://github.com/netlify/victor-hugo">Victor-Hugo</a>!
-</p>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title popup-head" id="exampleModalLongTitle">Request Membership</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center popup-body">
+        <img src="img/universal_line.jpg" class="underline ml-auto mr-auto">
+        <div class="container">
+          <form id="pop-form1">
+            <div class="form-group row justify-content-center">
+              <div class="col-sm-10">
+                <input type="text" class="form-control form-control-sm" id="name" placeholder="Name">
+              </div>
+            </div>
+            <div class="form-group row justify-content-center">
+              <div class="col-sm-10">
+                <input type="email" class="form-control form-control-sm" id="email" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group row justify-content-center">
+              <div class="col-sm-10">
+                <input type="tel" class="form-control form-control-sm" id="phone" placeholder="Phone">
+              </div>
+            </div>
+            <div class="form-group row justify-content-center">
+              <div class="col-sm-10">
+                <input type="text" class="form-control form-control-sm" id="brokerage"
+                       placeholder="Brokerage Name">
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer popup-footer">
+        <button type="button" class="btn blue_btn consumer_btn ml-auto mr-auto popup-button">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#testimonial-slider").owlCarousel({
+            items: 3,
+            itemsDesktop: [1000, 2],
+            itemsDesktopSmall: [990, 1],
+            itemsTablet: [768, 1],
+            pagination: true,
+            navigation: false,
+            navigationText: ["", ""],
+            slideSpeed: 1000,
+            autoPlay: true
+        });
+    });
+</script>
 
 {{end}}
