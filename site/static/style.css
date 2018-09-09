@@ -280,6 +280,10 @@ p, h4, .arial {
 .read-more{
     color: #003373;
     font-size: 14px;
+    text-decoration: none;
+}
+.read-more:hover{
+    text-decoration: none;
 }
 .blog-read-row{
     height: 20px;
@@ -291,6 +295,7 @@ p, h4, .arial {
 .popup-head{
     text-align: center;
     margin-left: 123px;
+    font-size: 37px;
 }
 
 .popup-body{
