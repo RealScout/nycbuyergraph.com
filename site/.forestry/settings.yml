@@ -4,10 +4,9 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: site/content
-  label: Pages
-  create: all
+- type: document
+  path: site/content/_index.html
+  label: Home Page
   match: "*"
 upload_dir: site//static/uploads
 public_path: "/uploads"
