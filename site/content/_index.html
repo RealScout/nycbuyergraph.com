@@ -27,10 +27,10 @@
 <div class="container text-center">
     <h2 class="heading">What is the NYC Buyer Graph</h2>
     <img src="img/universal_line.jpg" class="underline">
-    <p class="p_text">Leading residential real estate brokerages in New York City have launched a groundbreaking
+    <p class="p_text font-16">Leading residential real estate brokerages in New York City have launched a groundbreaking
         cooperative to make New York the most innovative, consumer-first residential real estate market in the
         country.</p>
-    <p class="p_text">The platform, powered by RealScout, enables consumers and agents to search for the perfect
+    <p class="p_text font-16">The platform, powered by RealScout, enables consumers and agents to search for the perfect
         property using RealScout’s award winning property search, make data-driven decisions about their buying/selling
         process with proprietary data, and collaborate with agents who have clients ready to transact. </p>
     <button type="button" class="btn btn-outline-dark request_btn" data-toggle="modal" data-target="#exampleModalCenter">Request Membership</button>
@@ -295,7 +295,7 @@
             <div class="col-md-4">
                 <img class="cta-icon" src="img/7_B.png">
                 <h3 class="service_headning arial">Technology</h3>
-                <p class="p_small_text">
+                <p class="p_small_text font-15">
                     We’re a Silicon Valley company with technology in our DNA. We pioneered innovations like computer
                     vision and machine learning in real estate to deliver one-of-a-kind experiences to our users. Our
                     API, lead ingestion, and single-sign-on solutions make implementation a breeze for brokerages.
@@ -313,7 +313,7 @@
         </div>
     </div>
 </div>
-<div class="container text-center">
+<div class="container text-center hidden-xs">
     <h2 class="heading">Buyer Graph Blog Posts</h2>
     <img src="img/universal_line.jpg" class="underline">
     <p style="font-size: 15px; margin-bottom: 50px;color:#5e5e5e">The NYC Buyer Graph is rooted in a philosophy
@@ -337,7 +337,7 @@
                     <h3 class="blog_heading arial">Network Effects are Only Way to Future-proof Brokerages</h3>
                     </a>
                     <p class="user">Andrew Flachner</p>
-                    <p class="blog-text">Originally published on Inman News -- Six months ago, I made the claim that
+                    <p class="blog-text font-15">Originally published on Inman News -- Six months ago, I made the claim that
                         2017 is the year of
                         the broker, the year that brokerages must stand up to the threat of alt-brokerages and
                         disintermediating tech companies.
@@ -366,7 +366,7 @@
                         <h3 class="blog_heading arial">The Real Estate Buyer Data Gold Rush</h3>
                     </a>
                     <p class="user">Andrew Flachner</p>
-                    <p class="blog-text">There are moments in history where huge business opportunities are suddenly
+                    <p class="blog-text font-15">There are moments in history where huge business opportunities are suddenly
                         unlocked. Like the
                         gold rush, these opportunities create fierce competition, rapid innovation, and new winners and
                         losers.
@@ -394,7 +394,7 @@
                         <h3 class="blog_heading arial">Why Brokers are Losing the Battle for Buyer Data</h3>
                     </a>
                     <p class="user">Andrew Flachner</p>
-                    <p class="blog-text">A common observation in both is that brokerages and traditional real estate
+                    <p class="blog-text font-15">A common observation in both is that brokerages and traditional real estate
                         professionals are
                         behind the curve in this buyer data land grab.
                         Losing this battle means that brokerages and agents could lose control over their transaction
@@ -463,8 +463,8 @@
             </div>
             <div class="modal-body text-center popup-body">
                 <img src="img/universal_line.jpg" class="underline ml-auto mr-auto">
-                <div class="container">
-                    <form id="pop-form1">
+                <div class="container" id="mod-body1">
+                    <form name="contact" netlify id="pop-form1">
                         <div class="form-group row justify-content-center">
                             <div class="col-sm-10">
                                 <input type="text" class="form-control form-control-sm" id="name" placeholder="Name">
@@ -514,6 +514,14 @@
             navigationText: ["", ""],
             slideSpeed: 1000,
             autoPlay: true
+        });
+    });
+    $("#pop-form1").submit(function(e) {
+        e.preventDefault();
+        var $form = $(this);
+        $.post($form.attr("action"), $form.serialize()).then(function() {
+            msgSent();
+            $("#mod-body1").html("Thank you someone will reach out to you soon");
         });
     });
 </script>

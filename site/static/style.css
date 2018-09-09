@@ -403,9 +403,12 @@ p, h4, .arial {
 
     .headshot{
         width: 100px;
+        margin-top: 50px;
+
     }
     .Testimonials_bg{
         text-align: center;
+        height: 600px;
     }
 }
 
@@ -594,4 +597,11 @@ header .overlay {
     .Testimonials_bg{
         height: 900px !important;
     }
+}
+
+.font-16{
+    font-size: 16px !important;
+}
+.font-15{
+    font-size: 15px !important;
 }
