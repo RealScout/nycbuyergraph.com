@@ -1,0 +1,7 @@
+---
+label: Home
+hide_body: false
+is_partial: false
+fields: []
+pages:
+- site/content/_index.html
