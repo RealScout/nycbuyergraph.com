@@ -405,7 +405,6 @@ p, h4, .arial {
         width: 100px;
     }
     .Testimonials_bg{
-        height: 500px;
         text-align: center;
     }
 }
@@ -424,6 +423,7 @@ p, h4, .arial {
     }
 
     .header_bg {
+        background: url(img/1_hero.jpg);
         background-size: cover;
         padding: 5em 0
     }
@@ -586,5 +586,12 @@ header .overlay {
     }
     header video {
         display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    .Testimonials_bg{
+        height: 900px !important;
     }
 }
