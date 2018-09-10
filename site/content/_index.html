@@ -511,13 +511,14 @@
             slideSpeed: 1000,
             autoPlay: true
         });
-    });
-    $(".contact").submit(function(e) {
-        e.preventDefault();
-        var $form = $(this);
-        $.post($form.attr("action"), $form.serialize()).then(function() {
-            msgSent();
-            $("#modBod").html("Thank you someone will reach out to you soon");
+        $(".contact").submit(function(e) {
+            e.preventDefault();
+            var $form = $(this);
+            $.post($form.attr("action"), $form.serialize()).then(function() {
+                msgSent();
+                $("#modBod").html("Thank you someone will reach out to you soon");
+            });
         });
     });
+
 </script>
