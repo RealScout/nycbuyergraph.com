@@ -9,7 +9,7 @@
                 <h1 class="header_main_heading">Major Brokerages Launch NYC Buyer Graph to Transform Local Real Estate
                 Market</h1>
                 <button type="button" class="btn blue_btn header_btn" data-toggle="modal" data-target="#exampleModalCenter">Request Membership</button>
-                <p class="header_p">Are you a broker outside of New York? <a href="#">Click Here</a></p>
+                <p class="header_p">Are you a broker outside of New York? <a class="click-here" href="#">Click Here</a></p>
             </div>
         </div>
     </div>
@@ -24,7 +24,7 @@
         property using RealScout’s award winning property search, make data-driven decisions about their buying/selling
         process with proprietary data, and collaborate with agents who have clients ready to transact. </p>
     <button type="button" class="btn btn-outline-dark request_btn" data-toggle="modal" data-target="#exampleModalCenter">Request Membership</button>
-    <p class="click_here">Are you a broker outside of New York? <a href="#">Click Here</a></p>
+    <p class="click_here">Are you a broker outside of New York? <a class="click-here" href="#">Click Here</a></p>
 </div>
 <div class="gray_bg">
     <div class="container">
@@ -66,7 +66,7 @@
 <div class="container text-center">
     <h2 class="heading">The Power of Your Buyer Data, Unleashed.</h2>
     <img src="img/universal_line.jpg" class="underline">
-    <p class="p_text">RealScout is the only technology platform that realizes the potential of your buyer data from
+    <p class="p_text font-16">RealScout is the only technology platform that realizes the potential of your buyer data from
         start to finish.</p>
     <div class="row m_top">
         <div class="col-md-4">
@@ -457,7 +457,7 @@
             <div class="modal-body text-center popup-body">
                 <img src="img/universal_line.jpg" class="underline ml-auto mr-auto">
                 <div class="container" id="modBod">
-                    <form name="contact" method="POST" netlify>
+                    <form name="contact" method="POST" class="contact" netlify>
                         <div class="form-group row justify-content-center">
                             <div class="col-sm-10">
                                 <input type="text" class="form-control form-control-sm" id="name" placeholder="Name">
@@ -512,7 +512,7 @@
             autoPlay: true
         });
     });
-    $("#contactForm").submit(function(e) {
+    $(".contact").submit(function(e) {
         e.preventDefault();
         var $form = $(this);
         $.post($form.attr("action"), $form.serialize()).then(function() {
