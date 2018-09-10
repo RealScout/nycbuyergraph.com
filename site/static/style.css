@@ -378,10 +378,6 @@ p, h4, .arial {
         min-height: 650px
     }
 
-    .s_heading {
-        font-size: 30px;
-        font-weight: 700
-    }
 
     .mtb_40 {
         margin: 10px 0
@@ -400,9 +396,6 @@ p, h4, .arial {
     .Dominate_text {
         font-size: 22px;
         margin-top: 10px
-    }
-    .testimonial-text{
-        min-height: 280px
     }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
