@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 a {
     color: #209dfd
 }
@@ -355,6 +360,14 @@ p, h4, .arial {
     }
 }
 @media only screen and (min-width: 768px) and (max-width:1024px){
+
+    .consumer-cover-img{
+        background-size: contain;
+        min-height: 400px;
+        background-repeat:   no-repeat;
+        background-position: center center;
+    }
+
     .s-head {
         min-height: 45px;
     }
