@@ -73,7 +73,8 @@ p, h4, .arial {
     font-size: 14px;
     font-weight: 600;
     padding: 15px 45px;
-    margin: 20px 0
+    margin: 20px 0;
+    text-transform: uppercase;
 }
 
 .header_p {
@@ -367,6 +368,9 @@ p, h4, .arial {
         background-repeat:   no-repeat;
         background-position: center center;
     }
+    .s_heading{
+        line-height: 45px;
+    }
 
     .s-head {
         min-height: 45px;
@@ -411,7 +415,7 @@ p, h4, .arial {
 
     .Dominate_text {
         font-size: 22px;
-        margin-top: 10px
+        margin-top: 10px;
     }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -422,6 +426,11 @@ p, h4, .arial {
 
 
 @media only screen and (max-width: 767px) {
+    .Dominate_text {
+        font-size: 22px;
+        margin-top: 10px;
+        text-align: left;
+    }
 
     .padd {
         padding: 15px
