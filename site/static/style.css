@@ -58,6 +58,11 @@ p, h4, .arial {
     background: #094f86;
     color: #fff
 }
+.blue_btn:hover {
+    background: #063860;
+    color: #fff
+}
+
 
 .header_btn {
     font-size: 14px;
@@ -263,7 +268,7 @@ p, h4, .arial {
     height: 250px
 }
 .person-row{
-    height: 100px;
+    min-height: 50px;
 }
 .consumer-bg{
     background: #f0f0f0;
@@ -404,7 +409,7 @@ p, h4, .arial {
 
     .headshot{
         width: 100px;
-        margin-top: 50px;
+        margin-top: 0;
 
     }
     .Testimonials_bg{
@@ -625,6 +630,10 @@ header .overlay {
     min-height: 400px;
 }
 
-.click_here:hover{
-    text-decoration: none;
+a.click_here:hover{
+    text-decoration: none !important;
+}
+a.click_here{
+    text-decoration: none !important;
+
 }
