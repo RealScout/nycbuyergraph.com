@@ -367,6 +367,9 @@ p, h4, .arial {
     }
 
     /*added from below*/
+    .padd {
+        padding: 30px
+    }
     .consumer_btn {
         font-size: 15px;
         font-weight: 400;
