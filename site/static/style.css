@@ -595,8 +595,8 @@ header {
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
-    background: url(img/1_hero.jpg);
     background-size: cover;
+    background: url(img/1_hero.jpg) black no-repeat center center scroll;
 }
 
 header video {
@@ -626,7 +626,7 @@ header .overlay {
     height: 100%;
     width: 100%;
     background-size: cover;
-    background: url(img/1_hero.jpg) black;
+    background: url(img/1_hero.jpg) black no-repeat center center scroll;
     opacity: 0.5;
     z-index: 1;
 }
