@@ -264,9 +264,7 @@ p, h4, .arial {
 .footer-icon{
     width: 30px;
 }
-.testimonial-text{
-    height: 250px
-}
+
 .person-row{
     min-height: 50px;
 }
@@ -341,6 +339,8 @@ p, h4, .arial {
     border: none;
 }
 
+
+
 @media (min-width: 1281px) {
     .fix_hight {
         min-height: 412px !important;
@@ -350,18 +350,32 @@ p, h4, .arial {
     .Testimonials_bg {
         min-height: 310px
     }
+    .testimonial-text{
+        min-height: 280px
+    }
 }
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    .s-head {
+        min-height: 45px;
+    }
+    .s-head-more {
+        min-height: 55px;
+    }
+    .header_main_heading {
+        font-size: 45px;
+        margin-bottom: 20px
+    }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-
+    /*added from below*/
     .consumer_btn {
         font-size: 15px;
         font-weight: 400;
         padding: 10px 20px;
         margin: 0
     }
+
     .blog-card{
-        min-height: 900px
+        min-height: 650px
     }
 
     .s_heading {
@@ -373,9 +387,6 @@ p, h4, .arial {
         margin: 10px 0
     }
 
-    .padd {
-        padding: 3px
-    }
 
     .p_text {
         font-size: 15px
@@ -390,11 +401,19 @@ p, h4, .arial {
         font-size: 22px;
         margin-top: 10px
     }
+    .testimonial-text{
+        min-height: 280px
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+
 }
 
 
 
 @media only screen and (max-width: 767px) {
+
     .padd {
         padding: 15px
     }
@@ -415,6 +434,9 @@ p, h4, .arial {
     .Testimonials_bg{
         text-align: center;
         min-height: 200px;
+    }
+    .testimonial-text{
+        min-height: 100px
     }
 }
 
