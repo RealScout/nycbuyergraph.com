@@ -453,10 +453,10 @@
             </div>
 
 
-            <div class="modal-body text-center popup-body" id="org-body">
+            <div class="modal-body text-center popup-body">
                 <img src="img/universal_line.jpg" class="underline ml-auto mr-auto">
                 <div class="container" id="modBod">
-                    <form name="contact" method="POST" id="contact" netlify>
+                    <form name="contact" method="POST" id="contact" action="/#myModal" netlify>
                         <div class="form-group row justify-content-center">
                             <div class="col-sm-10">
                                 <input type="text" class="form-control form-control-sm" id="name" name="name" placeholder="Name">
@@ -543,16 +543,17 @@
 
         if(window.location.href.indexOf('#myModal') != -1) {
             $('#myModal').modal('show');
+            $("#contact").submit(function(e) {
+                e.preventDefault();
+                var $form = $(this);
+                $.post($form.attr("action"), $form.serialize()).then(function() {
+                    msgSent();
+                    $("#mod-body1").html("Thank you someone will reach out to you soon");
+                });
+            });
         }
 
     });
-    $("#contact").submit(function(e) {
-        e.preventDefault();
-        var $form = $(this);
-        $.post($form.attr("action"), $form.serialize()).then(function() {
-            msgSent();
-            $("#org-body").html("Thank you someone will reach out to you soon");
-        });
-    });
+
 
 </script>
