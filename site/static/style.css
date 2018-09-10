@@ -49,7 +49,7 @@ p, h4, .arial {
 
 
 .header_bg {
-    /*background: url(img/1_hero.jpg);*/
+    background: url(img/1_hero.jpg);
     padding: 10em 0;
     background-size: 100%;
 }
