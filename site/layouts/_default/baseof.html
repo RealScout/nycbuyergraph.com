@@ -19,21 +19,7 @@
 
 </head>
 <body>
-<SCRIPT>
-    //Add this to you script
-    function run(){
-        var password = prompt("Password Please");
-//Change to your own Password
-        if(password != 'letmein'){
-            document.body.innerHTML = '';
-            document.body.innerHTML = 'Password Failed! Reload to Renter Password';
-            window.stop();
-        }else{
-            alert('Success');
-        }
-    }
-    run();
-</SCRIPT>
+
 
 {{ block "main" . }}{{end}}
 </body>

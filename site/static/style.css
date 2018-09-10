@@ -314,13 +314,13 @@ p, h4, .arial {
     margin-top: -40px;
 }
 
-#pop-form1 input{
+#contactForm input.form-control{
     background: #efefef;
     color: #999999;
     padding: 10px 5px 10px 10px;
     border-radius: 0;
     margin-bottom: -10px;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif !important;
     font-size: 17px;
     border: none;
     height: 56px;
