@@ -273,6 +273,7 @@ p, h4, .arial {
 }
 .blog-text{
     font-size: 14px;
+    color: #666666;
 }
 .blog-card{
     min-height: 600px
