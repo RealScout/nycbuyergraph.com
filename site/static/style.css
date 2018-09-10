@@ -596,7 +596,7 @@ header {
     width: 100%;
     overflow: hidden;
     background-size: cover;
-    background: url(img/1_hero.jpg) black no-repeat center center scroll;
+    background: url(img/1_hero.jpg);;
 }
 
 header video {
@@ -626,7 +626,7 @@ header .overlay {
     height: 100%;
     width: 100%;
     background-size: cover;
-    background: url(img/1_hero.jpg) black no-repeat center center scroll;
+    background: url(img/1_hero.jpg);
     opacity: 0.5;
     z-index: 1;
 }
@@ -634,7 +634,7 @@ header .overlay {
 @media (pointer: coarse) and (hover: none) {
     header {
         background-size: cover;
-        background: url(img/1_hero.jpg) black no-repeat center center scroll;
+        background: url(img/1_hero.jpg);
     }
     header video {
         display: none;
