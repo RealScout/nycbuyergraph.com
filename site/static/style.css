@@ -610,3 +610,17 @@ header .overlay {
 .click_here:hover{
     text-decoration: none;
 }
+
+.close-btn{background: #787878;
+    margin-bottom:-300px;
+}
+
+.thanks{
+    text-align: left;
+    font-family: Arial, sans-serif !important;
+    font-size: 17px;
+    color: #242424;
+}
+.modal-content{
+    min-height: 400px;
+}

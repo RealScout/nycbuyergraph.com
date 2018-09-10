@@ -457,7 +457,7 @@
             <div class="modal-body text-center popup-body">
                 <img src="img/universal_line.jpg" class="underline ml-auto mr-auto">
                 <div class="container" id="modBod">
-                    <form name="contact" method="POST" class="contact" netlify>
+                    <form name="contact" method="POST" action="/#myModal" netlify>
                         <div class="form-group row justify-content-center">
                             <div class="col-sm-10">
                                 <input type="text" class="form-control form-control-sm" id="name" placeholder="Name">
@@ -493,6 +493,33 @@
 </div>
 
 
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title popup-head" id="myModal">Request Membership</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+
+            <div class="modal-body text-center popup-body">
+                <img src="img/universal_line.jpg" class="underline ml-auto mr-auto">
+                <div class="container">
+                    <div class="thanks">
+                        Thank you. Someone will reach out to you soon.
+                    </div>
+                    <button type="button" class="btn blue_btn consumer_btn ml-auto mr-auto popup-button close-btn" data-dismiss="modal">Close </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
 <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -511,6 +538,13 @@
             slideSpeed: 1000,
             autoPlay: true
         });
+
+    });
+    $(document).ready(function() {
+
+        if(window.location.href.indexOf('#myModal') != -1) {
+            $('#myModal').modal('show');
+        }
 
     });
 
