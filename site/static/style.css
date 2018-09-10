@@ -409,7 +409,7 @@ p, h4, .arial {
     }
     .Testimonials_bg{
         text-align: center;
-        height: 600px;
+        min-height: 200px;
     }
 }
 
@@ -596,7 +596,7 @@ header .overlay {
 @media (min-width: 576px) and (max-width: 992px) {
 
     .Testimonials_bg{
-        height: 900px !important;
+        min-height: 100px !important;
     }
 }
 
