@@ -596,6 +596,7 @@ header {
     width: 100%;
     overflow: hidden;
     background: url(img/1_hero.jpg);
+    background-size: cover;
 }
 
 header video {
@@ -631,6 +632,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
     header {
+        background-size: cover;
         background: url(img/1_hero.jpg) black no-repeat center center scroll;
     }
     header video {
