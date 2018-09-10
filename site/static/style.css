@@ -624,3 +624,7 @@ header .overlay {
 .modal-content{
     min-height: 400px;
 }
+
+.click_here:hover{
+    text-decoration: none;
+}
